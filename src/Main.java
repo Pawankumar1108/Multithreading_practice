@@ -21,8 +21,8 @@ public class Main {
 
             }
         };
-        Thread th1 = new Thread(runnable,"The 1st Thread Withdraw :- ");
-        Thread th2 = new Thread(runnable,"The 2nd Thread Withdraw :- ");
+        Thread th1 = new Thread(runnable,"The 1st Thread Withdrawal :- ");
+        Thread th2 = new Thread(runnable,"The 2nd Thread Withdrawal :- ");
         th1.start();
         th2.start();
     }
